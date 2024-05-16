@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!-- <div class=""></div> -->
+
+        <div class="profile" id="profile">
+            <div class="pt">
+                <h2>Hey, I'm</h2>
+                <h1>Ravi Ranjan Jha</h1>
+                <div class="btn">
+                <button class="btn1" onclick="fun()">CONTACT</button>
+                <!-- <a target="_blank" rel="nofollow" href={`mailto:{jha07358@gmail.com}`}>mail</a> -->
+                <button onclick="fun1()">RESUME</button></div>
+                <div class="social">
+                <a href="https://www.linkedin.com/in/ravi-ranjan-jha-313954221/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/Ravijha02?t=3tghlCJJkA1LyU0q2APB-Q&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/RaviJha02?tab=repositories"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+            </div>
+            <div class="pimg">
+                <img src="img1.jpg"/>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <h2>ABOUT ME</h2>
+            <div class="about1">
+                <p>Hello! I'm Ravi Ranjan Jha, an trained web developer with hands-on experience crafting dynamic and user-friendly digital
+                    experiences. Specializing in MERN Full Stack using React JS, Javascript, Html, CSS
+                    Node JS, and Express JS, I ensure seamless and responsive user
+                    interfaces. On the backend, I excel in utilizing Node JS and Express JS to create robust and scalable server-side applications. With a
+                    passion for clean, efficient code, I bring a keen eye for detail to
+                    every project. Let's build the future of the web together, one line of
+                    code at a time!</p>
+                <div class="education_card">
+                    <div class="card1">
+                        <h3>B TECH</h3>
+                        <h4>ECE</h4>
+                        <div>Bhagalpur College Of Engineering</div>
+                        <div>2019-2023</div>
+                    </div>
+                    <div class="card1">
+                        <h3>TRAINING</h3>
+                        <h4>MERN FULL-STACK</h4>
+                        <div>Vector India Institute, Hyderabad</div>
+                        <div>sept'23-april'24</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills" id="skills"><h2>MY SKILLS</h2>
+            <div class="skills0">
+            <div class="skills1">
+                <div class="logo"><i class="fa-brands fa-react" style="color: #74C0FC;"></i></div>
+                <div>React Js</div>
+            </div>
+            <div class="skills1">
+                <div class="logo"><img src="java-script.png"/></div>
+                <div>Javascript</div>
+            </div>
+            <div class="skills1">
+                <div class="logo"><i class="fa-brands fa-html5" style="color: #B197FC;"></i></div>
+                <div>HTML</div>
+            </div>
+            <div class="skills1">
+                <div class="logo"><i class="fa-brands fa-css3" style="color: #B197FC;"></i></div>
+                <div>CSS</div>
+            </div>
+            <div class="skills1">
+                <div class="logo"><i class="fa-brands fa-node-js" style="color: #B197FC;"></i></div>
+                <div>Node Js</div>
+            </div>
+            <div class="skills1">
+                <div class="logo"><img src="icons8-express-js-64.png"/></div>
+                <div>Express Js</div>
+            </div>
+            <div class="skills1">
+                <div class="logo"><img src="mongodb.png"/></div>
+                <div>MongoDb</div>
+            </div>
+            <div class="skills1">
+                <div class="logo"><img src="mysql.png"/></div>
+                <div>MySql</div>
+            </div>
+            <div class="skills1">
+                <div class="logo"><i class="fa-brands fa-python" style="color: #B197FC;"></i></div>
+                <div>Python</div>
+            </div>
+        </div>
+        </div>
+
+        <div class="projects" id="projects">
+            <h2>MY PROJECTS</h2>
+            <div class="projects0">
+                <div class="project_card">
+                    <h3>YouTube Clone</h3>
+                    <div class="primg"><img src="youtube_clone.png"/></div>
+                    <p>Developed a fully responsive YouTube clone using ReactJs, Material UI, and Rapid API
+                        Implemented features including a similar Homepage layout, Channelpage layout, search functionality, view
+                        likes/comments, subscriber count.
+                        Users get personalized video recommendations based on the content they are watching .</p>
+                    <button onclick="youtube()">LIVE STREAM</button>
+                </div>
+                <div class="project_card">
+                    <h3>E-COMMERCE</h3>
+                    <div class="primg"><img src="card.jpg"/></div>
+                    <p>Created an E-commerce application with ReactJs, Axios, ExpressJs, NodeJs, MongoDB, Jsonwebtoken,
+                        Bcrypt module and state management techniques like state lifting and useContext.
+                        Normal users can browse listed products, add items to the cart, adjust quantities from both the cart and
+                        product pages , and also can able to rate and comment on the product.
+                        Users who are admin can able to add products into database.
+                        Secure routing is done using middleware in backend so that only valid user can use specific features.</p>
+                    <button onclick="ecom()">VIEW PROJECT</button>
+                </div>
+                <div class="project_card">
+                    <h3>MCQ APP</h3>
+                    <div class="primg"><img src="quiz.png"/></div>
+                    <p>Developed a fully responsive MCQ application using ReactJs, ExpressJs, NodeJs, MongoDB.
+                        User can register or login and can able to take MCQ exam.
+                        Result page consist of best score , current score, number of attempts and their attempted answer with
+                        correct answer.</p>
+                    <button onclick="quiz()">VIEW PROJECT</button>
+                </div>
+                <div class="project_card">
+                    <h3>WEATHER APP</h3>
+                    <div class="primg"><img src="weather.png"/></div>
+                    <p> Developed a fully responsive Weather App using HTML, CSS, Javascript.
+                        It provide accurate and real-time weather application.
+                        Integrated the weather API provided by OpenWeatherMap to fetch live weather data</p>
+                    <button onclick="weather()">LIVE STREAM</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h3>Get In Touch</h3>
+            <h1>Contact Me</h1>
+            <div class="email">
+                <div class="glogo"><img src="gmail.png" alt=""/></div>
+                <a href="mailto:jha07358@gmail.com">jha07358@gmail.com</a>
+            </div>
+            <div class="footer">
+                Copyright &copy; 2024 Ravi Ranjan Jha. All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let cntr=document.getElementsByClassName("btn1")[0]
+        let fun=()=>{
+            window.location.href = "mailto:" +"jha07458@gmail.com" ;
+            // location.href="mailto:jha07358@gmail.com"
+            // cntr.style.background="blue"
+            // console.log("click")
+        }
+
+        let fun1=()=>{
+            window.open('https://drive.google.com/file/d/1FIPwgGSFKG8mW9ACo6_GxshqwwZVPNmI/view', '_blank');
+        }
+
+        let ecom=()=>{
+            window.open('https://github.com/RaviJha02/Ecom', '_blank');
+        }
+        let quiz=()=>{
+            window.open('https://github.com/RaviJha02/Quiz_App', '_blank');
+        }
+        let weather=()=>{
+            window.open('https://ravijha02.github.io/Weather/', '_blank');
+        }
+        let youtube=()=>{
+            window.open('https://ravijha02.github.io/Weather/', '_blank');
+        }
+        
+
+    </script>
+</body>
+</html>
